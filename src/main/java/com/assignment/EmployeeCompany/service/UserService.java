@@ -1,0 +1,7 @@
+package com.assignment.EmployeeCompany.service;
+
+import org.springframework.security.core.userdetails.UserDetailsService;
+
+public interface UserService extends UserDetailsService{
+
+}

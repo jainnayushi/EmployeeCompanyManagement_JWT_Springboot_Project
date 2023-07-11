@@ -1,0 +1,331 @@
+2023-07-10 10:25:23.994 [INFO ] c.a.E.EmployeeCompanyApplication - Starting EmployeeCompanyApplication using Java 17.0.7 with PID 10952 (C:\Users\Ayushi.Jain\IdeaProjects\Task1 - Updates\Task1 - JWT\target\classes started by Ayushi.Jain in C:\Users\Ayushi.Jain\IdeaProjects\Task1 - Updates\Task1 - JWT)
+2023-07-10 10:25:24.008 [DEBUG] c.a.E.EmployeeCompanyApplication - Running with Spring Boot v3.1.0, Spring v6.0.9
+2023-07-10 10:25:24.009 [INFO ] c.a.E.EmployeeCompanyApplication - No active profile set, falling back to 1 default profile: "default"
+2023-07-10 10:25:24.076 [INFO ] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-07-10 10:25:24.076 [INFO ] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-07-10 10:25:25.139 [INFO ] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-07-10 10:25:25.255 [INFO ] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 100 ms. Found 3 JPA repository interfaces.
+2023-07-10 10:25:26.348 [INFO ] o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-07-10 10:25:26.365 [INFO ] o.a.c.c.StandardService - Starting service [Tomcat]
+2023-07-10 10:25:26.365 [INFO ] o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-07-10 10:25:26.496 [INFO ] o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+2023-07-10 10:25:26.498 [INFO ] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2419 ms
+2023-07-10 10:25:26.697 [INFO ] o.h.j.i.u.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-07-10 10:25:26.810 [INFO ] o.h.Version - HHH000412: Hibernate ORM core version 6.2.2.Final
+2023-07-10 10:25:26.813 [INFO ] o.h.c.Environment - HHH000406: Using bytecode reflection optimizer
+2023-07-10 10:25:27.020 [INFO ] o.h.b.i.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+2023-07-10 10:25:27.202 [INFO ] o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-07-10 10:25:27.227 [INFO ] c.z.h.HikariDataSource - testdb - Starting...
+2023-07-10 10:25:27.613 [INFO ] c.z.h.p.HikariPool - testdb - Added connection com.mysql.cj.jdbc.ConnectionImpl@6db5b07d
+2023-07-10 10:25:27.615 [INFO ] c.z.h.HikariDataSource - testdb - Start completed.
+2023-07-10 10:25:27.695 [INFO ] o.h.orm.dialect - HHH035001: Using dialect: org.hibernate.dialect.MySQLDialect, version: 8.0.33
+2023-07-10 10:25:27.983 [INFO ] o.h.b.i.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+2023-07-10 10:25:28.671 [INFO ] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-07-10 10:25:28.740 [INFO ] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-07-10 10:25:29.133 [DEBUG] c.a.E.c.JwtFilter - Filter 'jwtFilter' configured for use
+2023-07-10 10:25:29.651 [INFO ] o.s.s.w.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@31516659, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@30e8c374, org.springframework.security.web.context.SecurityContextHolderFilter@3573dde1, org.springframework.security.web.header.HeaderWriterFilter@19da2aed, org.springframework.security.web.authentication.logout.LogoutFilter@3ca662c8, com.assignment.EmployeeCompany.config.JwtFilter@744eefe6, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@14828d4d, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5c38d952, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@b48d895, org.springframework.security.web.session.SessionManagementFilter@4d931c3a, org.springframework.security.web.access.ExceptionTranslationFilter@759d743d, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@736066ed]
+2023-07-10 10:25:29.944 [INFO ] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2023-07-10 10:25:29.980 [INFO ] o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023-07-10 10:25:29.993 [INFO ] c.a.E.EmployeeCompanyApplication - Started EmployeeCompanyApplication in 6.507 seconds (process running for 7.129)
+2023-07-10 10:25:56.590 [INFO ] o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-07-10 10:25:56.590 [INFO ] o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-07-10 10:25:56.592 [INFO ] o.s.w.s.DispatcherServlet - Completed initialization in 1 ms
+2023-07-10 10:25:57.029 [TRACE] c.a.E.c.UserController - User saved successfully: 1602
+2023-07-10 10:26:05.525 [ERROR] c.a.E.c.UserController - Username already exists: newUser
+2023-07-10 10:31:04.031 [TRACE] c.a.E.c.JwtGeneratorValidator - Generated JWT token for user 'newUser'
+2023-07-10 10:31:31.451 [ERROR] c.a.E.c.JwtFilter - Token is mandatory
+2023-07-10 10:31:38.521 [ERROR] c.a.E.c.JwtFilter - Given JWT token is expired
+2023-07-10 10:31:44.689 [TRACE] c.a.E.c.JwtFilter - User 'newUser' successfully authenticated.
+2023-07-10 10:31:51.202 [ERROR] c.a.E.c.JwtFilter - An error occurred during JWT authentication: JWT signature does not match locally computed signature. JWT validity cannot be asserted and should not be trusted.
+2023-07-10 10:32:04.648 [ERROR] c.a.E.c.UserController - Failed authentication : Username/password Incorrect: Bad credentials
+2023-07-10 10:32:04.652 [WARN ] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [java.lang.Exception: Failed authentication : Username/password Incorrect]
+2023-07-10 11:10:18.539 [TRACE] c.a.E.c.UserController - User saved successfully: 1603
+2023-07-10 11:10:25.730 [ERROR] c.a.E.c.UserController - Failed authentication : Username/password Incorrect: Bad credentials
+2023-07-10 11:10:25.731 [WARN ] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [java.lang.Exception: Failed authentication : Username/password Incorrect]
+2023-07-10 11:10:35.980 [TRACE] c.a.E.c.JwtGeneratorValidator - Generated JWT token for user 'newUser2'
+2023-07-10 11:10:41.975 [ERROR] c.a.E.c.JwtFilter - Token is mandatory
+2023-07-10 11:10:48.938 [ERROR] c.a.E.c.JwtFilter - An error occurred during JWT authentication: JWT signature does not match locally computed signature. JWT validity cannot be asserted and should not be trusted.
+2023-07-10 11:10:53.987 [ERROR] c.a.E.c.JwtFilter - Given JWT token is expired
+2023-07-10 11:10:59.231 [TRACE] c.a.E.c.JwtFilter - User 'newUser2' successfully authenticated.
+2023-07-10 11:11:03.793 [ERROR] c.a.E.c.JwtFilter - Token is mandatory
+2023-07-10 11:16:16.356 [INFO ] o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+2023-07-10 11:16:16.410 [INFO ] o.a.c.c.StandardService - Stopping service [Tomcat]
+2023-07-10 11:16:16.413 [INFO ] o.a.c.c.C.[.[.[/] - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-07-10 11:16:16.416 [WARN ] o.a.c.l.WebappClassLoaderBase - The web application [ROOT] appears to have started a thread named [testdb housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.7/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.7/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+ java.base@17.0.7/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1672)
+ java.base@17.0.7/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base@17.0.7/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@17.0.7/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+ java.base@17.0.7/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+ java.base@17.0.7/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.7/java.lang.Thread.run(Thread.java:833)
+2023-07-10 11:16:16.422 [INFO ] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-07-10 11:16:16.426 [INFO ] c.z.h.HikariDataSource - testdb - Shutdown initiated...
+2023-07-10 11:16:16.501 [INFO ] c.z.h.HikariDataSource - testdb - Shutdown completed.
+2023-07-10 11:16:16.701 [INFO ] c.a.E.EmployeeCompanyApplication - Starting EmployeeCompanyApplication using Java 17.0.7 with PID 10952 (C:\Users\Ayushi.Jain\IdeaProjects\Task1 - Updates\Task1 - JWT\target\classes started by Ayushi.Jain in C:\Users\Ayushi.Jain\IdeaProjects\Task1 - Updates\Task1 - JWT)
+2023-07-10 11:16:16.702 [DEBUG] c.a.E.EmployeeCompanyApplication - Running with Spring Boot v3.1.0, Spring v6.0.9
+2023-07-10 11:16:16.702 [INFO ] c.a.E.EmployeeCompanyApplication - No active profile set, falling back to 1 default profile: "default"
+2023-07-10 11:16:16.984 [INFO ] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-07-10 11:16:17.015 [INFO ] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 29 ms. Found 3 JPA repository interfaces.
+2023-07-10 11:16:17.163 [INFO ] o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-07-10 11:16:17.164 [INFO ] o.a.c.c.StandardService - Starting service [Tomcat]
+2023-07-10 11:16:17.164 [INFO ] o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-07-10 11:16:17.192 [INFO ] o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+2023-07-10 11:16:17.193 [INFO ] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 488 ms
+2023-07-10 11:16:17.246 [INFO ] o.h.j.i.u.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-07-10 11:16:17.256 [INFO ] o.h.b.i.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+2023-07-10 11:16:17.257 [INFO ] o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-07-10 11:16:17.257 [INFO ] c.z.h.HikariDataSource - testdb - Starting...
+2023-07-10 11:16:17.273 [INFO ] c.z.h.p.HikariPool - testdb - Added connection com.mysql.cj.jdbc.ConnectionImpl@213cdb0d
+2023-07-10 11:16:17.274 [INFO ] c.z.h.HikariDataSource - testdb - Start completed.
+2023-07-10 11:16:17.275 [INFO ] o.h.orm.dialect - HHH035001: Using dialect: org.hibernate.dialect.MySQLDialect, version: 8.0.33
+2023-07-10 11:16:17.294 [INFO ] o.h.b.i.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+2023-07-10 11:16:17.369 [INFO ] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-07-10 11:16:17.403 [INFO ] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-07-10 11:16:17.473 [DEBUG] c.a.E.c.JwtFilter - Filter 'jwtFilter' configured for use
+2023-07-10 11:16:17.549 [WARN ] o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userController': Lookup method resolution failed
+2023-07-10 11:16:17.549 [INFO ] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-07-10 11:16:17.550 [INFO ] c.z.h.HikariDataSource - testdb - Shutdown initiated...
+2023-07-10 11:16:17.580 [INFO ] c.z.h.HikariDataSource - testdb - Shutdown completed.
+2023-07-10 11:16:17.580 [INFO ] o.a.c.c.StandardService - Stopping service [Tomcat]
+2023-07-10 11:16:17.587 [INFO ] o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-07-10 11:16:17.618 [ERROR] o.s.b.SpringApplication - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userController': Lookup method resolution failed
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.checkLookupMethods(AutowiredAnnotationBeanPostProcessor.java:471) ~[spring-beans-6.0.9.jar:6.0.9]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.determineCandidateConstructors(AutowiredAnnotationBeanPostProcessor.java:341) ~[spring-beans-6.0.9.jar:6.0.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineConstructorsFromBeanPostProcessors(AbstractAutowireCapableBeanFactory.java:1291) ~[spring-beans-6.0.9.jar:6.0.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1186) ~[spring-beans-6.0.9.jar:6.0.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:560) ~[spring-beans-6.0.9.jar:6.0.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520) ~[spring-beans-6.0.9.jar:6.0.9]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326) ~[spring-beans-6.0.9.jar:6.0.9]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.0.9.jar:6.0.9]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324) ~[spring-beans-6.0.9.jar:6.0.9]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-6.0.9.jar:6.0.9]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:973) ~[spring-beans-6.0.9.jar:6.0.9]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:941) ~[spring-context-6.0.9.jar:6.0.9]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:608) ~[spring-context-6.0.9.jar:6.0.9]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.1.0.jar:3.1.0]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:733) ~[spring-boot-3.1.0.jar:3.1.0]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:435) ~[spring-boot-3.1.0.jar:3.1.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:311) ~[spring-boot-3.1.0.jar:3.1.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1305) ~[spring-boot-3.1.0.jar:3.1.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1294) ~[spring-boot-3.1.0.jar:3.1.0]
+	at com.assignment.EmployeeCompany.EmployeeCompanyApplication.main(EmployeeCompanyApplication.java:10) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) ~[spring-boot-devtools-3.1.0.jar:3.1.0]
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [com.assignment.EmployeeCompany.controller.UserController] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@d5fa5eb]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:483) ~[spring-core-6.0.9.jar:6.0.9]
+	at org.springframework.util.ReflectionUtils.doWithLocalMethods(ReflectionUtils.java:320) ~[spring-core-6.0.9.jar:6.0.9]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.checkLookupMethods(AutowiredAnnotationBeanPostProcessor.java:449) ~[spring-beans-6.0.9.jar:6.0.9]
+	... 24 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: com/assignment/EmployeeCompany/entity/UserDTO
+	at java.base/java.lang.Class.getDeclaredMethods0(Native Method) ~[na:na]
+	at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3402) ~[na:na]
+	at java.base/java.lang.Class.getDeclaredMethods(Class.java:2504) ~[na:na]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:465) ~[spring-core-6.0.9.jar:6.0.9]
+	... 26 common frames omitted
+Caused by: java.lang.ClassNotFoundException: com.assignment.EmployeeCompany.entity.UserDTO
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641) ~[na:na]
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188) ~[na:na]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520) ~[na:na]
+	at java.base/java.lang.Class.forName0(Native Method) ~[na:na]
+	at java.base/java.lang.Class.forName(Class.java:467) ~[na:na]
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:121) ~[spring-boot-devtools-3.1.0.jar:3.1.0]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520) ~[na:na]
+	... 30 common frames omitted
+2023-07-10 11:16:20.170 [INFO ] c.a.E.EmployeeCompanyApplication - Starting EmployeeCompanyApplication using Java 17.0.7 with PID 10952 (C:\Users\Ayushi.Jain\IdeaProjects\Task1 - Updates\Task1 - JWT\target\classes started by Ayushi.Jain in C:\Users\Ayushi.Jain\IdeaProjects\Task1 - Updates\Task1 - JWT)
+2023-07-10 11:16:20.171 [DEBUG] c.a.E.EmployeeCompanyApplication - Running with Spring Boot v3.1.0, Spring v6.0.9
+2023-07-10 11:16:20.171 [INFO ] c.a.E.EmployeeCompanyApplication - No active profile set, falling back to 1 default profile: "default"
+2023-07-10 11:16:20.590 [INFO ] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-07-10 11:16:20.623 [INFO ] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 33 ms. Found 3 JPA repository interfaces.
+2023-07-10 11:16:20.852 [INFO ] o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-07-10 11:16:20.854 [INFO ] o.a.c.c.StandardService - Starting service [Tomcat]
+2023-07-10 11:16:20.854 [INFO ] o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-07-10 11:16:20.909 [INFO ] o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+2023-07-10 11:16:20.909 [INFO ] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 736 ms
+2023-07-10 11:16:20.971 [INFO ] o.h.j.i.u.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-07-10 11:16:20.990 [INFO ] o.h.b.i.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+2023-07-10 11:16:20.990 [INFO ] o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-07-10 11:16:20.992 [INFO ] c.z.h.HikariDataSource - testdb - Starting...
+2023-07-10 11:16:21.015 [INFO ] c.z.h.p.HikariPool - testdb - Added connection com.mysql.cj.jdbc.ConnectionImpl@24d6a74f
+2023-07-10 11:16:21.015 [INFO ] c.z.h.HikariDataSource - testdb - Start completed.
+2023-07-10 11:16:21.017 [INFO ] o.h.orm.dialect - HHH035001: Using dialect: org.hibernate.dialect.MySQLDialect, version: 8.0.33
+2023-07-10 11:16:21.051 [INFO ] o.h.b.i.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+2023-07-10 11:16:21.205 [INFO ] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-07-10 11:16:21.245 [INFO ] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-07-10 11:16:21.343 [DEBUG] c.a.E.c.JwtFilter - Filter 'jwtFilter' configured for use
+2023-07-10 11:16:21.601 [INFO ] o.s.s.w.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@45a6154f, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1b6239dd, org.springframework.security.web.context.SecurityContextHolderFilter@7a99cffa, org.springframework.security.web.header.HeaderWriterFilter@343e7648, org.springframework.security.web.authentication.logout.LogoutFilter@345bb8ed, com.assignment.EmployeeCompany.config.JwtFilter@6a81518f, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@d4c6130, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4a87cae7, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@63ca9279, org.springframework.security.web.session.SessionManagementFilter@567396f8, org.springframework.security.web.access.ExceptionTranslationFilter@5be438a, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5851ea6d]
+2023-07-10 11:16:21.717 [INFO ] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2023-07-10 11:16:21.732 [INFO ] o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023-07-10 11:16:21.736 [INFO ] c.a.E.EmployeeCompanyApplication - Started EmployeeCompanyApplication in 1.619 seconds (process running for 3058.873)
+2023-07-10 11:16:21.740 [INFO ] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2023-07-10 11:19:00.517 [INFO ] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-07-10 11:19:00.518 [INFO ] c.z.h.HikariDataSource - testdb - Shutdown initiated...
+2023-07-10 11:19:00.522 [INFO ] c.z.h.HikariDataSource - testdb - Shutdown completed.
+2023-07-10 11:19:10.529 [INFO ] c.a.E.EmployeeCompanyApplication - Starting EmployeeCompanyApplication using Java 17.0.7 with PID 4484 (C:\Users\Ayushi.Jain\IdeaProjects\Task1 - Updates\Task1 - JWT\target\classes started by Ayushi.Jain in C:\Users\Ayushi.Jain\IdeaProjects\Task1 - Updates\Task1 - JWT)
+2023-07-10 11:19:10.531 [DEBUG] c.a.E.EmployeeCompanyApplication - Running with Spring Boot v3.1.0, Spring v6.0.9
+2023-07-10 11:19:10.533 [INFO ] c.a.E.EmployeeCompanyApplication - No active profile set, falling back to 1 default profile: "default"
+2023-07-10 11:19:10.586 [INFO ] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-07-10 11:19:10.587 [INFO ] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-07-10 11:19:11.488 [INFO ] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-07-10 11:19:11.579 [INFO ] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 80 ms. Found 3 JPA repository interfaces.
+2023-07-10 11:19:12.448 [INFO ] o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-07-10 11:19:12.461 [INFO ] o.a.c.c.StandardService - Starting service [Tomcat]
+2023-07-10 11:19:12.462 [INFO ] o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-07-10 11:19:12.542 [INFO ] o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+2023-07-10 11:19:12.543 [INFO ] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1956 ms
+2023-07-10 11:19:12.691 [INFO ] o.h.j.i.u.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-07-10 11:19:12.753 [INFO ] o.h.Version - HHH000412: Hibernate ORM core version 6.2.2.Final
+2023-07-10 11:19:12.757 [INFO ] o.h.c.Environment - HHH000406: Using bytecode reflection optimizer
+2023-07-10 11:19:12.908 [INFO ] o.h.b.i.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+2023-07-10 11:19:13.079 [INFO ] o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-07-10 11:19:13.101 [INFO ] c.z.h.HikariDataSource - testdb - Starting...
+2023-07-10 11:19:13.422 [INFO ] c.z.h.p.HikariPool - testdb - Added connection com.mysql.cj.jdbc.ConnectionImpl@7ba14d9c
+2023-07-10 11:19:13.425 [INFO ] c.z.h.HikariDataSource - testdb - Start completed.
+2023-07-10 11:19:13.485 [INFO ] o.h.orm.dialect - HHH035001: Using dialect: org.hibernate.dialect.MySQLDialect, version: 8.0.33
+2023-07-10 11:19:13.731 [INFO ] o.h.b.i.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+2023-07-10 11:19:14.419 [INFO ] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-07-10 11:19:14.496 [INFO ] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-07-10 11:19:14.860 [DEBUG] c.a.E.c.JwtFilter - Filter 'jwtFilter' configured for use
+2023-07-10 11:19:15.276 [INFO ] o.s.s.w.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@6c6853db, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4c1b397b, org.springframework.security.web.context.SecurityContextHolderFilter@64160691, org.springframework.security.web.header.HeaderWriterFilter@4790db62, org.springframework.security.web.authentication.logout.LogoutFilter@1004eda2, com.assignment.EmployeeCompany.config.JwtFilter@49e6c963, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@49c2185e, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3f00ae35, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5ed81331, org.springframework.security.web.session.SessionManagementFilter@3304e7e0, org.springframework.security.web.access.ExceptionTranslationFilter@61b55177, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5e652348]
+2023-07-10 11:19:15.501 [INFO ] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2023-07-10 11:19:15.536 [INFO ] o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023-07-10 11:19:15.544 [INFO ] c.a.E.EmployeeCompanyApplication - Started EmployeeCompanyApplication in 5.474 seconds (process running for 5.984)
+2023-07-10 11:19:30.844 [INFO ] o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-07-10 11:19:30.844 [INFO ] o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-07-10 11:19:30.845 [INFO ] o.s.w.s.DispatcherServlet - Completed initialization in 1 ms
+2023-07-10 11:19:31.270 [TRACE] c.a.E.c.JwtGeneratorValidator - Generated JWT token for user 'newUser2'
+2023-07-10 11:19:54.208 [INFO ] o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+2023-07-10 11:19:54.235 [INFO ] o.a.c.c.StandardService - Stopping service [Tomcat]
+2023-07-10 11:19:54.237 [INFO ] o.a.c.c.C.[.[.[/] - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-07-10 11:19:54.241 [WARN ] o.a.c.l.WebappClassLoaderBase - The web application [ROOT] appears to have started a thread named [testdb housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.7/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.7/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+ java.base@17.0.7/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1672)
+ java.base@17.0.7/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base@17.0.7/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@17.0.7/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+ java.base@17.0.7/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+ java.base@17.0.7/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.7/java.lang.Thread.run(Thread.java:833)
+2023-07-10 11:19:54.249 [INFO ] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-07-10 11:19:54.253 [INFO ] c.z.h.HikariDataSource - testdb - Shutdown initiated...
+2023-07-10 11:19:54.267 [INFO ] c.z.h.HikariDataSource - testdb - Shutdown completed.
+2023-07-10 11:19:54.351 [INFO ] c.a.E.EmployeeCompanyApplication - Starting EmployeeCompanyApplication using Java 17.0.7 with PID 4484 (C:\Users\Ayushi.Jain\IdeaProjects\Task1 - Updates\Task1 - JWT\target\classes started by Ayushi.Jain in C:\Users\Ayushi.Jain\IdeaProjects\Task1 - Updates\Task1 - JWT)
+2023-07-10 11:19:54.352 [DEBUG] c.a.E.EmployeeCompanyApplication - Running with Spring Boot v3.1.0, Spring v6.0.9
+2023-07-10 11:19:54.352 [INFO ] c.a.E.EmployeeCompanyApplication - No active profile set, falling back to 1 default profile: "default"
+2023-07-10 11:19:54.656 [INFO ] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-07-10 11:19:54.682 [INFO ] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 25 ms. Found 3 JPA repository interfaces.
+2023-07-10 11:19:54.812 [INFO ] o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-07-10 11:19:54.813 [INFO ] o.a.c.c.StandardService - Starting service [Tomcat]
+2023-07-10 11:19:54.813 [INFO ] o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-07-10 11:19:54.843 [INFO ] o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+2023-07-10 11:19:54.843 [INFO ] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 487 ms
+2023-07-10 11:19:54.895 [INFO ] o.h.j.i.u.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-07-10 11:19:54.904 [INFO ] o.h.b.i.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+2023-07-10 11:19:54.904 [INFO ] o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-07-10 11:19:54.905 [INFO ] c.z.h.HikariDataSource - testdb - Starting...
+2023-07-10 11:19:54.923 [INFO ] c.z.h.p.HikariPool - testdb - Added connection com.mysql.cj.jdbc.ConnectionImpl@18daf97d
+2023-07-10 11:19:54.924 [INFO ] c.z.h.HikariDataSource - testdb - Start completed.
+2023-07-10 11:19:54.926 [INFO ] o.h.orm.dialect - HHH035001: Using dialect: org.hibernate.dialect.MySQLDialect, version: 8.0.33
+2023-07-10 11:19:54.945 [INFO ] o.h.b.i.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+2023-07-10 11:19:55.022 [INFO ] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-07-10 11:19:55.055 [INFO ] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-07-10 11:19:55.131 [DEBUG] c.a.E.c.JwtFilter - Filter 'jwtFilter' configured for use
+2023-07-10 11:19:55.286 [INFO ] o.s.s.w.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@60e43185, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5c72f223, org.springframework.security.web.context.SecurityContextHolderFilter@ce17729, org.springframework.security.web.header.HeaderWriterFilter@49a96841, org.springframework.security.web.authentication.logout.LogoutFilter@e84ba77, com.assignment.EmployeeCompany.config.JwtFilter@bd26376, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2856827d, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2a3f1c56, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2d76e2b0, org.springframework.security.web.session.SessionManagementFilter@9155a49, org.springframework.security.web.access.ExceptionTranslationFilter@50ee8fbf, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@15fbeb55]
+2023-07-10 11:19:55.345 [INFO ] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2023-07-10 11:19:55.355 [INFO ] o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023-07-10 11:19:55.359 [INFO ] c.a.E.EmployeeCompanyApplication - Started EmployeeCompanyApplication in 1.047 seconds (process running for 45.799)
+2023-07-10 11:19:55.362 [INFO ] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2023-07-10 11:20:33.097 [INFO ] o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2023-07-10 11:20:33.116 [INFO ] o.a.c.c.StandardService - Stopping service [Tomcat]
+2023-07-10 11:20:33.118 [WARN ] o.a.c.l.WebappClassLoaderBase - The web application [ROOT] appears to have started a thread named [testdb housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.7/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.7/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+ java.base@17.0.7/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1672)
+ java.base@17.0.7/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base@17.0.7/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@17.0.7/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+ java.base@17.0.7/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+ java.base@17.0.7/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.7/java.lang.Thread.run(Thread.java:833)
+2023-07-10 11:20:33.121 [INFO ] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-07-10 11:20:33.122 [INFO ] c.z.h.HikariDataSource - testdb - Shutdown initiated...
+2023-07-10 11:20:33.143 [INFO ] c.z.h.HikariDataSource - testdb - Shutdown completed.
+2023-07-10 11:20:33.311 [INFO ] c.a.E.EmployeeCompanyApplication - Starting EmployeeCompanyApplication using Java 17.0.7 with PID 4484 (C:\Users\Ayushi.Jain\IdeaProjects\Task1 - Updates\Task1 - JWT\target\classes started by Ayushi.Jain in C:\Users\Ayushi.Jain\IdeaProjects\Task1 - Updates\Task1 - JWT)
+2023-07-10 11:20:33.312 [DEBUG] c.a.E.EmployeeCompanyApplication - Running with Spring Boot v3.1.0, Spring v6.0.9
+2023-07-10 11:20:33.312 [INFO ] c.a.E.EmployeeCompanyApplication - No active profile set, falling back to 1 default profile: "default"
+2023-07-10 11:20:33.790 [INFO ] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-07-10 11:20:33.837 [INFO ] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 46 ms. Found 3 JPA repository interfaces.
+2023-07-10 11:20:34.107 [INFO ] o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-07-10 11:20:34.108 [INFO ] o.a.c.c.StandardService - Starting service [Tomcat]
+2023-07-10 11:20:34.108 [INFO ] o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-07-10 11:20:34.158 [INFO ] o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+2023-07-10 11:20:34.158 [INFO ] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 841 ms
+2023-07-10 11:20:34.242 [INFO ] o.h.j.i.u.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-07-10 11:20:34.264 [INFO ] o.h.b.i.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+2023-07-10 11:20:34.264 [INFO ] o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-07-10 11:20:34.266 [INFO ] c.z.h.HikariDataSource - testdb - Starting...
+2023-07-10 11:20:34.299 [INFO ] c.z.h.p.HikariPool - testdb - Added connection com.mysql.cj.jdbc.ConnectionImpl@3648da59
+2023-07-10 11:20:34.300 [INFO ] c.z.h.HikariDataSource - testdb - Start completed.
+2023-07-10 11:20:34.303 [INFO ] o.h.orm.dialect - HHH035001: Using dialect: org.hibernate.dialect.MySQLDialect, version: 8.0.33
+2023-07-10 11:20:34.340 [INFO ] o.h.b.i.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+2023-07-10 11:20:34.484 [INFO ] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-07-10 11:20:34.523 [INFO ] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-07-10 11:20:34.636 [DEBUG] c.a.E.c.JwtFilter - Filter 'jwtFilter' configured for use
+2023-07-10 11:20:34.859 [INFO ] o.s.s.w.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@32739f95, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3c56bd55, org.springframework.security.web.context.SecurityContextHolderFilter@6b07c9, org.springframework.security.web.header.HeaderWriterFilter@7a502584, org.springframework.security.web.authentication.logout.LogoutFilter@6613581b, com.assignment.EmployeeCompany.config.JwtFilter@72bfb838, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5ceae759, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@276d8545, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@70a9b2db, org.springframework.security.web.session.SessionManagementFilter@7a1c7ec8, org.springframework.security.web.access.ExceptionTranslationFilter@79b4bd20, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3a09cba8]
+2023-07-10 11:20:34.941 [INFO ] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2023-07-10 11:20:34.957 [INFO ] o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023-07-10 11:20:34.965 [INFO ] c.a.E.EmployeeCompanyApplication - Started EmployeeCompanyApplication in 1.712 seconds (process running for 85.405)
+2023-07-10 11:20:34.968 [INFO ] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2023-07-10 11:22:22.130 [INFO ] o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+2023-07-10 11:22:22.161 [INFO ] o.a.c.c.StandardService - Stopping service [Tomcat]
+2023-07-10 11:22:22.164 [WARN ] o.a.c.l.WebappClassLoaderBase - The web application [ROOT] appears to have started a thread named [testdb housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.7/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.7/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+ java.base@17.0.7/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1672)
+ java.base@17.0.7/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base@17.0.7/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@17.0.7/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+ java.base@17.0.7/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+ java.base@17.0.7/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.7/java.lang.Thread.run(Thread.java:833)
+2023-07-10 11:22:22.170 [INFO ] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-07-10 11:22:22.172 [INFO ] c.z.h.HikariDataSource - testdb - Shutdown initiated...
+2023-07-10 11:22:22.187 [INFO ] c.z.h.HikariDataSource - testdb - Shutdown completed.
+2023-07-10 11:22:22.297 [INFO ] c.a.E.EmployeeCompanyApplication - Starting EmployeeCompanyApplication using Java 17.0.7 with PID 4484 (C:\Users\Ayushi.Jain\IdeaProjects\Task1 - Updates\Task1 - JWT\target\classes started by Ayushi.Jain in C:\Users\Ayushi.Jain\IdeaProjects\Task1 - Updates\Task1 - JWT)
+2023-07-10 11:22:22.298 [DEBUG] c.a.E.EmployeeCompanyApplication - Running with Spring Boot v3.1.0, Spring v6.0.9
+2023-07-10 11:22:22.298 [INFO ] c.a.E.EmployeeCompanyApplication - No active profile set, falling back to 1 default profile: "default"
+2023-07-10 11:22:22.546 [INFO ] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-07-10 11:22:22.569 [INFO ] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 23 ms. Found 3 JPA repository interfaces.
+2023-07-10 11:22:22.683 [INFO ] o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-07-10 11:22:22.684 [INFO ] o.a.c.c.StandardService - Starting service [Tomcat]
+2023-07-10 11:22:22.684 [INFO ] o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-07-10 11:22:22.710 [INFO ] o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+2023-07-10 11:22:22.710 [INFO ] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 410 ms
+2023-07-10 11:22:22.753 [INFO ] o.h.j.i.u.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-07-10 11:22:22.762 [INFO ] o.h.b.i.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+2023-07-10 11:22:22.763 [INFO ] o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-07-10 11:22:22.764 [INFO ] c.z.h.HikariDataSource - testdb - Starting...
+2023-07-10 11:22:22.781 [INFO ] c.z.h.p.HikariPool - testdb - Added connection com.mysql.cj.jdbc.ConnectionImpl@13da1f1
+2023-07-10 11:22:22.781 [INFO ] c.z.h.HikariDataSource - testdb - Start completed.
+2023-07-10 11:22:22.781 [INFO ] o.h.orm.dialect - HHH035001: Using dialect: org.hibernate.dialect.MySQLDialect, version: 8.0.33
+2023-07-10 11:22:22.802 [INFO ] o.h.b.i.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+2023-07-10 11:22:22.866 [INFO ] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-07-10 11:22:22.902 [INFO ] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-07-10 11:22:22.955 [DEBUG] c.a.E.c.JwtFilter - Filter 'jwtFilter' configured for use
+2023-07-10 11:22:23.075 [INFO ] o.s.s.w.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@7e15b33a, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6a5e657b, org.springframework.security.web.context.SecurityContextHolderFilter@37638031, org.springframework.security.web.header.HeaderWriterFilter@7ea43c9f, org.springframework.security.web.authentication.logout.LogoutFilter@2a057827, com.assignment.EmployeeCompany.config.JwtFilter@1504bdf4, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4d0ded29, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@129270d3, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@65d6f404, org.springframework.security.web.session.SessionManagementFilter@3865751b, org.springframework.security.web.access.ExceptionTranslationFilter@1faca70b, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@47fdb565]
+2023-07-10 11:22:23.127 [INFO ] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2023-07-10 11:22:23.136 [INFO ] o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023-07-10 11:22:23.140 [INFO ] c.a.E.EmployeeCompanyApplication - Started EmployeeCompanyApplication in 0.871 seconds (process running for 193.579)
+2023-07-10 11:22:23.141 [INFO ] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2023-07-10 11:43:11.180 [INFO ] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-07-10 11:43:11.181 [INFO ] c.z.h.HikariDataSource - testdb - Shutdown initiated...
+2023-07-10 11:43:11.185 [INFO ] c.z.h.HikariDataSource - testdb - Shutdown completed.
